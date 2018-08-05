@@ -1,0 +1,587 @@
+    body,
+    h2,
+    h3 {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    /* showcase starts */
+    
+    #showcase {
+        background: url('https://images.pexels.com/photos/7974/pexels-photo.jpg?cs=srgb&dl=apple-computer-cup-7974.jpg&fm=jpg');
+        height: 700px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #showcase header {
+        border-bottom: rgb(199, 196, 196) .5px solid;
+        height: 70px;
+    }
+    
+    #showcase header .logo {
+        padding-top: 25px;
+        float: left;
+        font-size: 20px;
+        color: #fff;
+    }
+    
+    #showcase header ul {
+        float: right;
+        padding-bottom: 20px;
+    }
+    
+    #showcase header ul li {
+        list-style: none;
+        float: left;
+        margin: 10px 10px;
+    }
+    
+    #showcase header ul li .close {
+        display: none;
+    }
+    
+    #showcase header ul li:last-child {
+        margin-right: 0;
+    }
+    
+    #showcase header ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        font-size: 12px;
+    }
+    
+    #showcase .show-content {
+        text-align: center;
+        margin-top: 25%;
+        color: #fff;
+    }
+    
+    #showcase .show-content h1 {
+        font-size: 50px;
+        margin: 0;
+    }
+    
+    #showcase .show-content p {
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    #showcase .show-content .btn1,
+    .btn2 {
+        text-transform: uppercase;
+        padding: 10px;
+        font-weight: bold;
+        margin: 10px;
+        width: 150px;
+        border: 1px solid #fff;
+    }
+    
+    .btn1 {
+        background: #fff;
+    }
+    
+    .btn2 {
+        background: transparent;
+        color: #fff;
+    }
+    /* showcase ends */
+    /* about start */
+    
+    #about {
+        background: #fff;
+        text-align: center;
+        padding: 40px 0;
+    }
+    
+    #about h3 {
+        font-size: 15px;
+        color: rgb(143, 139, 139);
+    }
+    
+    #about h2 {
+        text-transform: capitalize;
+        margin-top: 10px;
+    }
+    
+    #about .green {
+        background: #1bb580;
+        height: 4px;
+        width: 30px;
+        margin: 15px auto;
+    }
+    
+    #about .ab {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 15px;
+        color: rgb(199, 196, 196);
+    }
+    
+    .ab1 {
+        text-align: right;
+    }
+    
+    .ab2 {
+        text-align: left;
+    }
+    /* about ends */
+    /* tabs start */
+    
+    #tabs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #tabs .tab1 {
+        background: #1bb580;
+        padding: 40px 20px 40px 80px;
+        color: #fff;
+    }
+    
+    #tabs .tab1 h2 {
+        font-size: 30px;
+    }
+    
+    #tabs h3 {
+        font-size: 15px;
+        color: rgb(143, 139, 139);
+    }
+    
+    #tabs .btn1 {
+        background: #fff;
+        text-transform: uppercase;
+        padding: 8px;
+        font-weight: bold;
+        color: #000;
+        margin: 20px 0;
+        width: 100px;
+        border: 1px solid #fff;
+    }
+    
+    #tabs .tab2 {
+        background: url('https://images.pexels.com/photos/630839/pexels-photo-630839.jpeg?cs=srgb&dl=adult-blur-business-630839.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #tabs .tab3 {
+        background: url('https://images.pexels.com/photos/1153213/pexels-photo-1153213.jpeg?cs=srgb&dl=achievement-adult-agreement-1153213.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #tabs .tab4 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    #tabs .tab4 h2 {
+        padding: 10px 0;
+    }
+    
+    #tabs .tab4 .white {
+        background: #fff;
+        height: 4px;
+        width: 30px;
+    }
+    
+    #tabs .tab4 .one,
+    .two {
+        color: #fff;
+        padding: 40px 30px;
+    }
+    
+    #tabs .tab4 .one {
+        background: #3d3c3c;
+    }
+    
+    #tabs .tab4 .two {
+        background: #282828;
+    }
+    
+    #tabs .tab5 {
+        text-align: center;
+        font-size: 25px;
+        padding: 50px 40px 20px 40px;
+    }
+    
+    #tabs .tab5 h2 {
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    
+    #tabs .tab5 span {
+        font-size: 40px;
+    }
+    
+    #tabs .tab5 .img {
+        width: 40px;
+        height: 40px;
+        margin: 0 auto;
+        border-radius: 50%;
+        background: url('https://images.pexels.com/photos/1282169/pexels-photo-1282169.jpeg?cs=srgb&dl=carrying-casual-celebration-1282169.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #tabs .tab6 {
+        background: url('https://images.pexels.com/photos/53958/team-motivation-teamwork-together-53958.jpeg?cs=srgb&dl=community-diversity-feet-53958.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /* tabs ends */
+    
+    #progress {
+        min-height: 100px;
+        background: url('https://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?cs=srgb&dl=adult-backlit-beach-1000445.jpg&fm=jpghttps://images.pexels.com/photos/1000445/pexels-photo-1000445.jpeg?cs=srgb&dl=adult-backlit-beach-1000445.jpg&fm=jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    #progress .prog {
+        padding: 30px 0;
+        text-align: center;
+        color: #fff;
+    }
+    
+    #progress .prog h2 {
+        font-size: 50px;
+    }
+    
+    #team,
+    #footer .footer,
+    #progress .prog {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    #team img {
+        width: 100%;
+        height: 250px;
+    }
+    
+    #team .about {
+        padding: 15px 0;
+        text-align: center;
+    }
+    
+    #team .about p {
+        color: rgb(143, 139, 139);
+        margin: 0;
+    }
+    
+    #blog {
+        background: #f9f9f9;
+        padding: 80px 0;
+    }
+    
+    #blog .cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+    }
+    
+    #blog .cards .card {
+        background: #fff;
+        padding: 20px 0;
+        box-shadow: 0px 0px 3px 1px rgb(177, 175, 175);
+    }
+    
+    #blog .cards .card h2 {
+        font-size: 15px;
+        color: #1bb580;
+    }
+    
+    #blog .cards .card .next {
+        float: right;
+        font-size: 10px;
+        padding: 10px 0;
+        text-transform: uppercase;
+    }
+    
+    #blog .cards .card .date {
+        float: left;
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    
+    #footer {
+        background: #222222;
+        color: #fff;
+        padding: 30px 0;
+    }
+    
+    #footer .footer {
+        grid-gap: 10px;
+    }
+    
+    #footer .footer p {
+        color: #969292;
+    }
+    
+    #footer .footer h2 {
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    
+    #footer .footer .about span,
+    #footer .footer .post p {
+        color: #fff;
+    }
+    
+    #footer .footer .images {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 5px;
+        padding-top: 20px;
+    }
+    
+    #footer .footer .pics img {
+        width: 100%;
+        padding: 0;
+    }
+    
+    #footer .footer .post h3,
+    #footer .footer .about h3 {
+        color: #969292;
+        font-size: 15px;
+    }
+    
+    #footer .footer .news input {
+        padding: 10px;
+        width: 100%;
+        background: #1d1d1d;
+        border: none;
+        outline: none;
+        color: #fff;
+    }
+    /* main footer */
+    
+    footer {
+        margin-top: 50px;
+    }
+    
+    footer .main-footer {
+        border-top: rgb(199, 196, 196) .5px solid;
+        height: 50px;
+    }
+    
+    footer .copy {
+        float: right;
+        font-size: 15px;
+        color: #969292;
+        padding-top: 10px;
+    }
+    
+    footer .copy .green {
+        color: #1bb580;
+    }
+    
+    footer ul {
+        float: left;
+        padding: 0px;
+    }
+    
+    footer ul li {
+        list-style: none;
+        float: right;
+        margin: 10px 10px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        text-transform: capitalize;
+        color: #969292;
+        font-size: 15px;
+    }
+    /* media queries */
+    
+    @media only screen and (max-width: 500px) {
+        #showcase header {
+            height: 60px;
+        }
+        #showcase .logo {
+            float: left;
+            padding-top: 20px;
+            margin-top: 0;
+            text-align: center;
+            font-size: 15px;
+        }
+        .slide {
+            float: right;
+            border: 1px solid #fff;
+            padding: 10px;
+            margin-top: 10px;
+            border-radius: 2px;
+        }
+        .drop {
+            width: 35px;
+            height: 2px;
+            background-color: #fff;
+            margin: 6px 0;
+        }
+        .drop:last-child {
+            margin-bottom: 0;
+        }
+        .drop:first-child {
+            margin-top: 0;
+        }
+        #showcase header ul {
+            display: none;
+            text-align: center;
+            padding: 40px 40px 30px 20px;
+            margin-top: 0;
+            height: 50%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: #fff;
+            box-shadow: 0px 0px 18px 0px #000;
+        }
+        #showcase header ul li {
+            padding: 10px 10px;
+            list-style: none;
+            float: none;
+        }
+        #showcase header ul li .close {
+            display: block;
+            font-size: 40px;
+            position: absolute;
+            top: 10px;
+            left: 20px;
+        }
+        #showcase header ul li a {
+            color: #000;
+        }
+        #showcase {
+            height: 500px;
+        }
+        #showcase .show-content {
+            margin-top: 40%;
+        }
+        #showcase .show-content h1 {
+            font-size: 30px;
+        }
+        #showcase .show-content p {
+            font-size: 8px;
+        }
+        #blog .cards,
+        #team,
+        #about .ab,
+        #tabs,
+        #tabs .tab4 {
+            grid-template-columns: 1fr;
+        }
+        #team {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .member:first-child {
+            margin-top: 30px;
+        }
+        #tabs .tab1 h2 {
+            font-size: 25px;
+        }
+        .ab1,
+        .ab2 {
+            text-align: left;
+        }
+        #progress .prog {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #footer {
+            padding: 0;
+        }
+        .big-footer,
+        footer ul {
+            display: none;
+        }
+        footer .main-footer {
+            border: none;
+        }
+        footer .copy {
+            float: none;
+            font-size: 10px;
+            text-align: center;
+        }
+        footer {
+            margin: 0;
+        }
+    }
+    
+    @media only screen and (min-width: 600px) {
+        #tabs .tab4 {
+            grid-template-columns: 1fr;
+        }
+        #team {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #blog .cards {
+            grid-template-columns: 1fr;
+            grid-gap: 10px;
+        }
+        footer ul {
+            display: none;
+        }
+        footer .copy {
+            float: none;
+            font-size: 15px;
+            text-align: center;
+        }
+        footer {
+            margin-top: 20px;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        #showcase header .logo {
+            padding-top: 25px;
+        }
+        #tabs .tab4 {
+            grid-template-columns: 1fr;
+        }
+        #tabs .tab4 .one,
+        .two {
+            padding: 30px 20px;
+        }
+        #tabs .tab5 {
+            text-align: center;
+            font-size: 20px;
+            padding: 40px 30px 20px 30px;
+        }
+        #progress .prog {
+            padding: 20px 0;
+        }
+        #progress .prog h2 {
+            font-size: 30px;
+        }
+        #team {
+            grid-template-columns: repeat(2, 1fr);
+        }
+        #blog .cards {
+            grid-gap: 10px;
+        }
+        #footer .post h3 {
+            line-height: .2;
+        }
+    }
+    
+    @media only screen and (min-width: 1440px) {
+        #showcase .show-content {
+            margin-top: 15%;
+        }
+        #team {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        #blog .cards {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
