@@ -125,11 +125,11 @@
     }
     
     .ab1 {
-        text-align: right;
+        text-align: justify;
     }
     
     .ab2 {
-        text-align: left;
+        text-align: justify;
     }
     /* about ends */
     /* tabs start */
@@ -138,7 +138,9 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
-    
+    #tabs p{
+    text-align: justify;
+}
     #tabs .tab1 {
         background: #1bb580;
         padding: 40px 20px 40px 80px;
@@ -207,7 +209,7 @@
         background: #282828;
     }
     
-    #tabs .tab5 {
+   #tabs .tab5 p{
         text-align: center;
         font-size: 25px;
         padding: 50px 40px 20px 40px;
